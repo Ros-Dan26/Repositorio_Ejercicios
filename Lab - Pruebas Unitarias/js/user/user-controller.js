@@ -11,7 +11,7 @@ class UserController{
     add(user){
         this.users.push(user);
     }
-
+ 
     remove(user){
         this.users = this.users.filter(function(ele){
             return ele != user; 

@@ -6,7 +6,15 @@ const subtract = function(a, b) {
 }
 
 function divide(a, b){
-  return a / b;
+
+  if(b === 0)
+  {
+    return "La division entre 0 es indefinido o infinito"
+  }
+  else
+  {
+    return a / b;
+  }
 }
 
 function multiply(a, b){

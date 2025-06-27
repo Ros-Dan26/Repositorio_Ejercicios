@@ -24,6 +24,7 @@ test('remove user to userController', () => {
   });
 
 //Implementar 1 prueba para la función remove() que verifica un usuario que no está en la lista de usuarios.
+// ESTA HONESTAMENTE NO LE ENTENDI, PARA MI YA SE REALIZA EN LA PRUEBA DE ARRIBA.
 test('remove user to userController', () => {    
     let user = new User(1234,"Santiago", "santiago@generation.org");
     userController.remove(user);
